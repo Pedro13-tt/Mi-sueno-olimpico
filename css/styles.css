@@ -397,18 +397,11 @@ body.is-ready .hero__actions { animation: rise .8s .85s var(--ease-out) both; }
 .gallery__item button {
   position: relative; display: block; width: 100%; height: 100%;
   padding: 0; border: 0; border-radius: var(--radio); overflow: hidden;
-  background: #000; color: var(--blanco); cursor: zoom-in; text-align: left;
+  background: #000; color: var(--blanco); cursor: default; text-align: left;
   box-shadow: 0 14px 40px rgba(0,0,0,.32);
 }
 .gallery__item button::before { content: ""; position: absolute; inset: 0; z-index: 1; background: linear-gradient(180deg, transparent 45%, rgba(0,0,0,.85)); opacity: .85; transition: opacity .4s; }
 .gallery__item button:hover::before { opacity: 1; }
-.gallery__item button::after {
-  content: "+"; position: absolute; top: 1rem; right: 1rem; z-index: 3;
-  display: grid; place-items: center; width: 42px; height: 42px; border-radius: 50%;
-  background: var(--rosa); font-family: var(--f-display); font-size: 1.4rem; line-height: 1;
-  opacity: 0; transform: scale(.5) rotate(-90deg); transition: opacity .35s, transform .4s var(--ease);
-}
-.gallery__item button:hover::after { opacity: 1; transform: scale(1) rotate(0); }
 .gallery__item img { width: 100%; height: 100%; aspect-ratio: 4/3; object-fit: cover; transition: transform .8s var(--ease); }
 .gallery__item--hero img { aspect-ratio: 21/9; }
 .gallery__item button:hover img { transform: scale(1.07); }
@@ -420,6 +413,17 @@ body.is-ready .hero__actions { animation: rise .8s .85s var(--ease-out) both; }
   .gallery { grid-template-columns: 1fr; }
   .gallery__item--hero img { aspect-ratio: 4/3; }
 }
+
+/* ===== Recomendaciones ===== */
+.recomendaciones { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(.8rem, 2vw, 1.4rem); }
+.recomendaciones img { width: 100%; height: auto; border-radius: var(--radio); box-shadow: 0 14px 40px rgba(0,0,0,.2); }
+@media (max-width: 900px) { .recomendaciones { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .recomendaciones { grid-template-columns: 1fr; } }
+
+/* ===== Rol (PDF) ===== */
+.pdf { border: 3px solid var(--negro); border-radius: var(--radio); overflow: hidden; background: var(--blanco); box-shadow: 0 14px 40px rgba(0,0,0,.14); }
+.pdf iframe { display: block; width: 100%; height: clamp(420px, 75vh, 900px); border: 0; }
+.pdf__open { margin-top: 1.4rem; }
 
 /* ===== Visor ===== */
 .lightbox { width: 100vw; max-width: 100vw; height: 100dvh; max-height: 100dvh; margin: 0; padding: 0; border: 0; background: rgba(8,8,8,.97); color: var(--blanco); }
