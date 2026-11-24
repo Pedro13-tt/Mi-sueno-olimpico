@@ -453,7 +453,7 @@ body.is-ready .hero__actions { animation: rise .8s .85s var(--ease-out) both; }
 
 /* ===== Patrocinadores ===== */
 .sponsors-section { background: var(--tinte-verde); }
-.sponsors { list-style: none; display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(.6rem, 1.6vw, 1.1rem); margin: 2.4rem 0 0; padding: 0; }
+.sponsors { list-style: none; display: grid; grid-template-columns: repeat(5, 1fr); gap: clamp(.6rem, 1.6vw, 1.1rem); margin: 0; padding: 0; }
 .sponsors li { display: grid; place-items: center; min-height: 148px; padding: 1.1rem; border: 2px solid rgba(22,22,22,.08); border-radius: var(--radio); background: var(--blanco); box-shadow: 0 6px 18px rgba(0,0,0,.04); transition: transform .35s var(--ease), box-shadow .35s, border-color .35s; }
 .sponsors li:hover { transform: translateY(-7px); box-shadow: 7px 7px 0 var(--rosa); border-color: var(--rosa); }
 .sponsors img { max-height: 88px; width: auto; object-fit: contain; }
