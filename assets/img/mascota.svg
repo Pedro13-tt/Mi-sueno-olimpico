@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" role="img" aria-label="Mascota del Encuentro Nacional">
+  <ellipse cx="100" cy="186" rx="54" ry="8" fill="#161616" opacity=".14"/>
+  <path d="M48 152 Q22 140 28 118" fill="none" stroke="#161616" stroke-width="9" stroke-linecap="round"/>
+  <path d="M152 152 Q178 140 172 118" fill="none" stroke="#161616" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="26" cy="114" r="9" fill="#fff" stroke="#161616" stroke-width="5"/>
+  <circle cx="174" cy="114" r="9" fill="#fff" stroke="#161616" stroke-width="5"/>
+  <ellipse cx="66" cy="182" rx="21" ry="10" fill="#e8175d" stroke="#161616" stroke-width="5"/>
+  <ellipse cx="134" cy="182" rx="21" ry="10" fill="#14a44d" stroke="#161616" stroke-width="5"/>
+  <circle cx="100" cy="102" r="64" fill="#f39200" stroke="#161616" stroke-width="6"/>
+  <g fill="none" stroke="#161616" stroke-width="5" stroke-linecap="round">
+    <path d="M37 102h126"/>
+    <path d="M100 39v126"/>
+    <path d="M55 57q45 43 90 86"/>
+    <path d="M145 57q-45 43-90 86"/>
+  </g>
+  <ellipse cx="83" cy="94" rx="11" ry="13" fill="#fff"/>
+  <ellipse cx="117" cy="94" rx="11" ry="13" fill="#fff"/>
+  <circle cx="86" cy="96" r="5.5" fill="#161616"/>
+  <circle cx="114" cy="96" r="5.5" fill="#161616"/>
+  <circle cx="88" cy="93" r="2" fill="#fff"/>
+  <circle cx="116" cy="93" r="2" fill="#fff"/>
+  <path d="M84 118q16 15 32 0" fill="none" stroke="#161616" stroke-width="4.5" stroke-linecap="round"/>
+  <circle cx="66" cy="112" r="6" fill="#e8175d" opacity=".55"/>
+  <circle cx="134" cy="112" r="6" fill="#e8175d" opacity=".55"/>
+</svg>

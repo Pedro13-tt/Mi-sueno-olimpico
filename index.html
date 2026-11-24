@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Encuentro Nacional 2026 · Cuarta Generación · Mi Sueño Olímpico</title>
+  <meta name="description" content="Encuentro Nacional 2026 de la cuarta generación del programa Mi Sueño Olímpico, Comité Olímpico Mexicano. Pequeños pasos, grandes sueños.">
+  <meta name="theme-color" content="#161616">
+  <meta property="og:title" content="Encuentro Nacional 2026 · Mi Sueño Olímpico">
+  <meta property="og:description" content="Cuarta generación del programa. Comité Olímpico Mexicano. Pequeños pasos, grandes sueños.">
+  <meta property="og:image" content="assets/img/imagen-1-com.jpeg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Figtree:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="is-locked">
+
+  <!-- SVG reutilizables -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <defs>
+      <symbol id="splat" viewBox="0 0 400 300">
+        <path d="M0 0H300C310 30 280 50 250 62C225 72 232 98 205 112C176 127 150 108 128 132C108 154 118 190 84 198C56 205 34 180 14 196C8 201 3 208 0 214Z"/>
+        <circle cx="330" cy="40" r="12"/><circle cx="362" cy="22" r="6"/>
+        <circle cx="290" cy="118" r="9"/><circle cx="240" cy="160" r="5"/>
+        <circle cx="150" cy="232" r="10"/><circle cx="102" cy="262" r="5"/><circle cx="60" cy="238" r="7"/>
+      </symbol>
+      <symbol id="arrow" viewBox="0 0 24 24">
+        <path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </symbol>
+    </defs>
+  </svg>
+
+  <!-- ============ PANTALLA DE ENTRADA ============ -->
+  <section class="intro" id="intro" aria-labelledby="intro-title">
+    <div class="intro__photo"></div>
+    <svg class="splat splat--pink intro__splat intro__splat--tl" aria-hidden="true"><use href="#splat"/></svg>
+    <svg class="splat splat--green intro__splat intro__splat--br" aria-hidden="true"><use href="#splat"/></svg>
+
+    <div class="intro__content">
+      <img class="intro__logo" src="assets/img/logos/LogoCOM.png" alt="Comité Olímpico Mexicano" width="150" height="124">
+      <p class="intro__eyebrow">Mi Sueño Olímpico · Generación 04</p>
+      <h1 class="intro__title" id="intro-title">¿Listo para perseguir <span>tus sueños?</span></h1>
+      <button class="btn btn--go" id="intro-yes" type="button">
+        <span>Sí, vamos</span>
+        <svg aria-hidden="true"><use href="#arrow"/></svg>
+      </button>
+    </div>
+
+    <img class="intro__mascot" src="assets/img/mascota.svg" alt="" width="140" height="140">
+  </section>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <a class="nav__brand" href="#inicio" aria-label="Ir al inicio">
+      <img src="assets/img/logos/LogoCOM.png" alt="" width="42" height="35">
+      <span class="nav__brand-text">Encuentro Nacional <b>2026</b></span>
+    </a>
+
+    <button class="nav__toggle" id="nav-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="nav-links">
+      <span></span><span></span><span></span>
+    </button>
+
+    <nav class="nav__links" id="nav-links" aria-label="Secciones">
+      <a href="#programa">Programa</a>
+      <a href="#galeria">Galería</a>
+      <a href="#ubicacion">Ubicación</a>
+      <a href="#patrocinadores">Patrocinadores</a>
+    </nav>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+      <div class="hero__photo" aria-hidden="true"></div>
+      <div class="hero__veil" aria-hidden="true"></div>
+      <svg class="splat splat--pink hero__splat hero__splat--tl" aria-hidden="true"><use href="#splat"/></svg>
+      <svg class="splat splat--green hero__splat hero__splat--tr" aria-hidden="true"><use href="#splat"/></svg>
+      <svg class="splat splat--black hero__splat hero__splat--bl" aria-hidden="true"><use href="#splat"/></svg>
+
+      <div class="hero__inner">
+        <div class="hero__top">
+          <img class="hero__seal" src="assets/img/logos/LogoCOM.png" alt="Comité Olímpico Mexicano" width="120" height="99">
+          <span class="hero__edition">Mi Sueño Olímpico <i></i> 3–6 Diciembre 2026</span>
+        </div>
+
+        <h2 class="hero__headline">
+          <span class="hero__line">Encuentro</span>
+          <span class="hero__line">Nacional <em>2026</em></span>
+        </h2>
+
+        <div class="hero__badge">
+          <span>Cuarta generación del programa</span>
+          <strong>04</strong>
+        </div>
+
+        <p class="hero__motto">Pequeños pasos, <em>grandes sueños.</em></p>
+
+        <div class="hero__actions">
+          <a class="btn btn--pink" href="#programa">Explora el programa <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+          <a class="btn btn--glass" href="#galeria">Ver galería</a>
+        </div>
+      </div>
+
+      <img class="hero__mascot" src="assets/img/mascota.svg" alt="" width="160" height="160">
+
+      <a class="hero__scroll" href="#nosotros" aria-label="Deslizar hacia abajo">
+        <span>Desliza</span><i></i>
+      </a>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Pequeños pasos, grandes sueños <b>✦</b> Encuentro Nacional 2026 <b>✦</b> Cuarta generación <b>✦</b> Comité Olímpico Mexicano <b>✦</b></span>
+        <span>Pequeños pasos, grandes sueños <b>✦</b> Encuentro Nacional 2026 <b>✦</b> Cuarta generación <b>✦</b> Comité Olímpico Mexicano <b>✦</b></span>
+      </div>
+    </div>
+
+    <!-- DATOS -->
+    <section class="facts" aria-label="Datos del encuentro">
+      <div class="facts__grid wrap">
+        <div class="fact"><span class="fact__num" data-count="4" data-pad="2">00</span><span class="fact__label">Generación del programa</span></div>
+        <div class="fact"><span class="fact__num" data-count="2026">0000</span><span class="fact__label">Año del encuentro</span></div>
+        <div class="fact"><span class="fact__num">CDMX</span><span class="fact__label">Ciudad de México</span></div>
+        <div class="fact"><span class="fact__num" data-count="4">00</span><span class="fact__label">Días de actividades</span></div>
+      </div>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section about" id="nosotros">
+      <div class="wrap about__grid">
+        <div class="about__visual reveal">
+          <img src="assets/img/imagen-2-com.jpeg" alt="Instalaciones del Comité Olímpico Mexicano" loading="lazy">
+          <div class="about__sticker"><span>El lugar donde</span><strong>nacen los sueños</strong></div>
+          <div class="about__frame" aria-hidden="true"></div>
+        </div>
+        <div class="about__copy">
+          <p class="section__eyebrow reveal">01 · El encuentro</p>
+          <h2 class="section__title reveal">Un punto de encuentro para <span>la nueva generación olímpica.</span></h2>
+          <p class="section__lead reveal">La cuarta generación del programa <b>Mi Sueño Olímpico</b> se reúne en las instalaciones del Comité Olímpico Mexicano para vivir el deporte, la convivencia y los valores que nos unen.</p>
+          <ul class="about__list">
+            <li class="reveal"><span>01</span><div><b>Formación olímpica</b><p>Actividades que fortalecen el espíritu deportivo y el trabajo en equipo.</p></div></li>
+            <li class="reveal"><span>02</span><div><b>Convivencia</b><p>Un espacio para compartir, aprender y crear amistades que trascienden la cancha.</p></div></li>
+            <li class="reveal"><span>03</span><div><b>Inspiración</b><p>Historias que demuestran que cada pequeño paso cuenta hacia un gran sueño.</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROGRAMA -->
+    <section class="section section--tint program" id="programa">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <p class="section__eyebrow reveal">02 · 3 al 6 de diciembre</p>
+            <h2 class="section__title reveal">Programa de actividades</h2>
+          </div>
+          <p class="section__lead reveal">Cuatro días de deporte, convivencia y olimpismo en las instalaciones del Comité Olímpico Mexicano.</p>
+        </div>
+
+        <div class="days">
+          <article class="day reveal">
+            <div class="day__head">
+              <span class="day__num">01</span>
+              <div class="day__title">
+                <span class="day__date">Jueves 03 de diciembre</span>
+                <h3>Bienvenida e inauguración</h3>
+              </div>
+            </div>
+            <ul class="day__schedule">
+              <li><time>12:00 - 14:00</time><span>Check-in / instalación en Villa Olímpica</span></li>
+              <li><time>13:00 - 16:00</time><span>Comida</span></li>
+              <li><time>16:20</time><span>Acomodo de delegaciones y padres de familia en Villa Olímpica</span></li>
+              <li><time>17:00</time><span>Ceremonia de inauguración</span></li>
+              <li><time>18:00</time><span>Convivencia deportiva</span></li>
+              <li><time>19:00 - 20:30</time><span>Cena</span></li>
+              <li><time>21:00</time><span>Descanso</span></li>
+            </ul>
+          </article>
+
+          <article class="day day--pink reveal">
+            <div class="day__head">
+              <span class="day__num">02</span>
+              <div class="day__title">
+                <span class="day__date">Viernes 04 de diciembre</span>
+                <h3>Juegos Encuentro Nacional</h3>
+              </div>
+            </div>
+            <ul class="day__schedule">
+              <li><time>7:00 - 9:00</time><span>Desayuno</span></li>
+              <li><time>8:00 - 21:00</time><span>Juegos Encuentro Nacional</span></li>
+              <li><time>13:00 - 16:00</time><span>Comida</span></li>
+              <li><time>18:00 - 21:00</time><span>Cena</span></li>
+            </ul>
+          </article>
+
+          <article class="day day--green reveal">
+            <div class="day__head">
+              <span class="day__num">03</span>
+              <div class="day__title">
+                <span class="day__date">Sábado 05 de diciembre</span>
+                <h3>Juegos y premiación</h3>
+              </div>
+            </div>
+            <ul class="day__schedule">
+              <li><time>7:00 - 9:00</time><span>Desayuno</span></li>
+              <li><time>8:00 - 21:00</time><span>Juegos Encuentro Nacional</span></li>
+              <li><time>13:00 - 15:00</time><span>Comida</span></li>
+              <li><time>17:00</time><span>Premiación de equipos que concluyen su participación</span></li>
+              <li><time>18:00 - 21:00</time><span>Cena</span></li>
+            </ul>
+          </article>
+
+          <article class="day day--orange reveal">
+            <div class="day__head">
+              <span class="day__num">04</span>
+              <div class="day__title">
+                <span class="day__date">Domingo 06 de diciembre</span>
+                <h3>Gran final nacional</h3>
+              </div>
+            </div>
+            <ul class="day__schedule">
+              <li><time>7:00 - 9:30</time><span>Desayuno</span></li>
+              <li><time>8:00 - 15:00</time><span>Gran final nacional de todas las categorías</span></li>
+              <li><time>11:00 - 15:00</time><span>Premiación final</span></li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="soon reveal"><b>Programa sujeto a cambios.</b> Te recomendamos estar al pendiente de las actualizaciones del Encuentro.</p>
+      </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section gallery-section" id="galeria">
+      <div class="wrap">
+        <div class="section__head">
+          <div>
+            <p class="section__eyebrow reveal">03 · Así se vive</p>
+            <h2 class="section__title reveal">Galería</h2>
+          </div>
+          <p class="section__lead reveal">Un vistazo a las instalaciones donde cobran vida los sueños. Toca una foto para verla en grande.</p>
+        </div>
+
+        <ul class="gallery" id="gallery">
+          <li class="gallery__item gallery__item--hero reveal">
+            <button type="button" data-index="0">
+              <img src="assets/img/imagen-1-com.jpeg" alt="Vista panorámica de las instalaciones del Comité Olímpico Mexicano" loading="lazy">
+              <span class="gallery__caption"><b>Instalaciones</b><small>Comité Olímpico Mexicano</small></span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button type="button" data-index="1">
+              <img src="assets/img/imagen-2-com.jpeg" alt="Espacios deportivos del Comité Olímpico Mexicano" loading="lazy">
+              <span class="gallery__caption"><b>Espacios deportivos</b><small>Lomas de Sotelo, CDMX</small></span>
+            </button>
+          </li>
+          <li class="gallery__item reveal">
+            <button type="button" data-index="2">
+              <img src="assets/img/imagen-3-com.jpeg" alt="Instalaciones del Comité Olímpico Mexicano" loading="lazy">
+              <span class="gallery__caption"><b>El escenario</b><small>Encuentro Nacional 2026</small></span>
+            </button>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section class="section section--tint location" id="ubicacion">
+      <div class="wrap">
+        <p class="section__eyebrow reveal">04 · Nos vemos aquí</p>
+        <h2 class="section__title reveal">Ubicación</h2>
+
+        <div class="place">
+          <a class="place__card reveal" href="https://www.google.com/maps/search/?api=1&query=Comit%C3%A9+Ol%C3%ADmpico+Mexicano+Av.+del+Conscripto+S%2FN+Lomas+de+Sotelo+Miguel+Hidalgo+CDMX" target="_blank" rel="noopener">
+            <div class="place__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg>
+            </div>
+            <div>
+              <span class="place__kicker">Sede del encuentro</span>
+              <strong>Comité Olímpico Mexicano</strong>
+              <p>Av. del Conscripto S/N, Lomas de Sotelo, Hipódromo de las Américas, Miguel Hidalgo, 01210 Ciudad de México, CDMX</p>
+            </div>
+            <span class="place__cta">Abrir en Google Maps <svg aria-hidden="true"><use href="#arrow"/></svg></span>
+          </a>
+
+          <div class="place__map reveal">
+            <iframe title="Mapa del Comité Olímpico Mexicano" src="https://www.google.com/maps?q=Comit%C3%A9+Ol%C3%ADmpico+Mexicano+Av.+del+Conscripto+S%2FN+Lomas+de+Sotelo+CDMX&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+            <span class="place__map-label">Estamos aquí</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PATROCINADORES -->
+    <section class="section sponsors-section" id="patrocinadores">
+      <div class="wrap">
+        <p class="section__eyebrow reveal">05 · Gracias a</p>
+        <h2 class="section__title reveal">Patrocinadores</h2>
+        <ul class="sponsors">
+          <li class="reveal"><img src="assets/img/logos/LogoMSO.png" alt="Mi Sueño Olímpico" loading="lazy"></li>
+          <li class="reveal"><img src="assets/img/logos/LogoCOM.png" alt="Comité Olímpico Mexicano" loading="lazy"></li>
+          <li class="reveal"><img src="assets/img/logos/LOGOTIPO_CONADE-1024x539-4249022938.png" alt="CONADE" loading="lazy"></li>
+          <li class="reveal"><img src="assets/img/logos/LogoMiniBasket.png" alt="Mini Basketball" loading="lazy"></li>
+          <li class="reveal"><img src="assets/img/logos/LogoADEMEBA.png" alt="ADEMEBA" loading="lazy"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CIERRE -->
+    <section class="finale">
+      <div class="finale__photo" aria-hidden="true"></div>
+      <div class="finale__veil" aria-hidden="true"></div>
+      <div class="finale__content">
+        <img src="assets/img/logos/LogoCOM.png" alt="" width="96" height="79" loading="lazy">
+        <p>Pequeños pasos, grandes sueños</p>
+        <h2>Nos vemos en el <em>Encuentro 2026</em></h2>
+        <a class="btn btn--pink" href="#ubicacion">Cómo llegar <svg aria-hidden="true"><use href="#arrow"/></svg></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__rings" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+    <img src="assets/img/mascota.svg" alt="" width="72" height="72" loading="lazy">
+    <p>Encuentro Nacional 2026 · Comité Olímpico Mexicano</p>
+    <p class="footer__small">Cuarta generación · Mi Sueño Olímpico</p>
+    <a class="footer__top" href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+  <!-- VISOR -->
+  <dialog class="lightbox" id="lightbox" aria-label="Visor de fotos">
+    <button class="lightbox__close" type="button" id="lb-close" aria-label="Cerrar">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" type="button" id="lb-prev" aria-label="Foto anterior">&#8249;</button>
+    <figure class="lightbox__figure">
+      <img id="lb-img" src="" alt="">
+      <figcaption id="lb-caption"></figcaption>
+    </figure>
+    <button class="lightbox__nav lightbox__nav--next" type="button" id="lb-next" aria-label="Foto siguiente">&#8250;</button>
+  </dialog>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
